@@ -1,0 +1,275 @@
+/* Services Page CSS */
+
+/* Banner Section */
+.service_banner {
+    background-color: #1d242e;
+    padding: 80px 0;
+    color: #ffffff;
+    margin-bottom: 30px;
+  }
+  
+  .service_banner .banner_content h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .service_banner .banner_content p {
+    font-size: 1.2rem;
+    opacity: 0.8;
+  }
+  
+  /* Service Detail Sections */
+  .service_detail_section {
+    padding: 80px 0;
+  }
+  
+  .service_detail_section .img-box {
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+  }
+  
+  .service_detail_section .img-box img {
+    transition: transform 0.5s;
+    width: 100%;
+  }
+  
+  .service_detail_section .img-box:hover img {
+    transform: scale(1.05);
+  }
+  
+  .service_detail_section .heading_container h2 {
+    position: relative;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+  }
+  
+  .service_detail_section .heading_container h2::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 70px;
+    height: 3px;
+    background-color: #4470CF;
+  }
+  
+  .service_detail_section p {
+    margin-bottom: 25px;
+    line-height: 1.8;
+  }
+  
+  .service_features {
+    margin-bottom: 30px;
+  }
+  
+  .service_features .feature {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .service_features .feature i {
+    color: #4470CF;
+    margin-right: 10px;
+    font-size: 18px;
+  }
+  
+  .service_btn {
+    display: inline-block;
+    padding: 12px 45px;
+    background-color: #4470CF;
+    color: #ffffff;
+    border-radius: 5px;
+    transition: all 0.3s;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  
+  .service_btn:hover {
+    background-color: #315bb1;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  /* Partners Section */
+  .partners_section {
+    padding: 80px 0;
+  }
+  
+  .partners_section .heading_container {
+    margin-bottom: 50px;
+  }
+  
+  .partners_section .heading_container p {
+    color: #777;
+    margin-top: 15px;
+  }
+  
+  .partner_box {
+    background-color: #ffffff;
+    padding: 30px 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s;
+    margin-bottom: 30px;
+    height: 100%;
+  }
+  
+  .partner_box:hover {
+    transform: translateY(-10px);
+  }
+  
+  .partner_box .img-box {
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .partner_box .img-box img {
+    max-height: 80px;
+    max-width: 100%;
+  }
+  
+  .partner_box h5 {
+    margin-bottom: 15px;
+    font-weight: 600;
+  }
+  
+  .partner_box p {
+    color: #777;
+    font-size: 14px;
+  }
+  
+  /* Why Choose Us Section */
+  .why_choose_section {
+    padding: 80px 0;
+  }
+  
+  .why_box {
+    background-color: #ffffff;
+    padding: 30px 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s;
+    margin-bottom: 30px;
+    height: 100%;
+  }
+  
+  .why_box:hover {
+    transform: translateY(-10px);
+  }
+  
+  .why_box .icon_box {
+    width: 80px;
+    height: 80px;
+    background-color: #f1f5ff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+  }
+  
+  .why_box .icon_box i {
+    color: #4470CF;
+    font-size: 32px;
+  }
+  
+  .why_box h5 {
+    margin-bottom: 15px;
+    font-weight: 600;
+  }
+  
+  .why_box p {
+    color: #777;
+  }
+  
+  /* Call to Action Section */
+  .call_to_action_section {
+    padding: 100px 0;
+    background-color: #4470CF;
+    color: #ffffff;
+  }
+  
+  .cta_content h2 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .cta_content p {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    opacity: 0.9;
+  }
+  
+  .cta_btn {
+    display: inline-block;
+    padding: 12px 45px;
+    background-color: #ffffff;
+    color: #4470CF;
+    border-radius: 5px;
+    transition: all 0.3s;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  
+  .cta_btn:hover {
+    background-color: #f5f5f5;
+    color: #4470CF;
+    text-decoration: none;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 991px) {
+    .service_detail_section {
+      padding: 60px 0;
+    }
+    
+    .service_banner {
+      padding: 60px 0;
+    }
+    
+    .partners_section,
+    .why_choose_section {
+      padding: 60px 0;
+    }
+    
+    .call_to_action_section {
+      padding: 80px 0;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .service_detail_section {
+      padding: 40px 0;
+    }
+    
+    .service_banner {
+      padding: 40px 0;
+    }
+    
+    .service_banner .banner_content h1 {
+      font-size: 2rem;
+    }
+    
+    .partners_section,
+    .why_choose_section {
+      padding: 40px 0;
+    }
+    
+    .call_to_action_section {
+      padding: 60px 0;
+    }
+    
+    .cta_content h2 {
+      font-size: 1.8rem;
+    }
+  }
